@@ -1,0 +1,6 @@
+,Soft Voting Classifier
+AUC-ROC,0.9958183990442054
+Balanced-Accuracy,0.9919354838709677
+F1-Score,0.991869918699187
+Sensitivity,0.9838709677419355
+Specificity,1.0
