@@ -25,8 +25,10 @@ def regular_mti(F, max_window=31, alpha=1e-6):
                     
     return MTI
 
-def gaussian_convolution_vfi(F, sigma=5, max_window=31, alpha=1e-7):
-
+def gaussian_convolution_vfi(F, sigma: int=5, max_window: int=31, alpha: float=1e-7) -> np.array:
+    """Computes the VFI for a sequence with allele frequencies given by F.
+    """
+    
     F_norm = F / (F + alpha)
     center = max_window // 2
 
